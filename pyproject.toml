@@ -1,5 +1,6 @@
 [project]
 name = "mother-is-mothering"
+version = "2024.1003-alpha"
 dependencies = [
     "numpy>=1.26.3"
 ]
