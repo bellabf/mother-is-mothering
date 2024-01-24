@@ -1,3 +1,3 @@
-__version__="0.0.0"
+__version__="2024.01.24" 
 
 from .mothers_words import *

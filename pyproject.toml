@@ -1,6 +1,5 @@
 [project]
 name = "mother-is-mothering"
-version = "0.0.0"
 dependencies = [
     "numpy>=1.26.3"
 ]
@@ -23,8 +22,8 @@ keywords = ["mother", "ts", "taylor swift", "girlies"]
 Homepage = "https://github.com/bellabf/mother-is-mothering"
 
 [tool.bumpver]
-current_version = "0.1.0"
-version_pattern = "MAJOR.MINOR.PATCH"
+current_version = "2024.01.24" 
+version_pattern = "YYYY.MM.DD"
 commit_message = "bump version {old_version} -> {new_version}"
 tag_message = "{new_version}"
 tag_scope = "default"
@@ -33,4 +32,11 @@ post_commit_hook = ""
 commit = true
 tag = true
 push = true
- 
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+]
+"src/__init__.py" = [
+    '__version__ = "{version}"',
+]
