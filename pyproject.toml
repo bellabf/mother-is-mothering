@@ -38,15 +38,13 @@ push = true
 "pyproject.toml" = [
     'current_version = "{version}"',
 ]
+
+"src/__init__.py" = [
+    '__version__ = "{version}"',
+]
+
 "README.md" = [
     "{version}",
     "{pep440_version}",
 ]
 
-[tool.bumpver.file_patterns]
-"pyproject.toml" = [
-    'current_version = "{version}"',
-]
-"src/__init__.py" = [
-    '__version__ = "{version}"',
-]
