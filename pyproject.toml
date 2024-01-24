@@ -2,7 +2,6 @@
 name = "mother-is-mothering"
 version = "0.0.0"
 dependencies = [
-    "pickle>=4.0",
     "numpy>=1.26.3"
 ]
 description = "Taylor Swift Lyrics"
