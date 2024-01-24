@@ -24,7 +24,7 @@ keywords = ["mother", "ts", "taylor swift", "girlies"]
 Homepage = "https://github.com/bellabf/mother-is-mothering"
 
 [tool.bumpver]
-current_version = "0.0.0"
+current_version = "0.1.0"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 tag_message = "{new_version}"
