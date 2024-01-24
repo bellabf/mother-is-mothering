@@ -23,7 +23,7 @@ Dependencies:
 * `pickle` - used for loading previously saved data."""
 
 
-def mothers_words():
+def speak_now():
     """Generates and prints a random selection of lyrics from the TS song library.
 
     This function selects a contiguous block of lines from the loaded song lyrics data and prints them to the console.
@@ -50,4 +50,4 @@ def mothers_words():
 
 
 if __name__ == "__main__":
-    mothers_words()
+    speak_now()
