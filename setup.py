@@ -5,7 +5,6 @@ current_dir = os.path.abspath(os.path.dirname(__file__))
 
 name = 'mother-is-mothering'
 description = 'Words of wisdom from Taylor Swift'
-version = '2024.1003-alpha'
 author = 'Isabella Bicalho Frazeto'
 author_email = 'bisnotforbella@gmail.com'
 license = 'MIT License'
