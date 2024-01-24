@@ -44,4 +44,7 @@ push = true
     '__version__ = "{version}"',
 ]
 
+"setup.py" = [
+    'version = "{version}"',
+]
 
