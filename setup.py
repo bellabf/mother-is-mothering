@@ -31,11 +31,9 @@ setup(
     long_description='Longer package description goes here.',
     packages=find_packages(),
     include_package_data=True,
-    install_requires=["numpy>=1.26.3"],
     package_data={
         'mother-is-mothering': ['src/ts-lyrics.pkl'],
     },
     extras_require={},
-    python_requires='>=3.7',
     zip_safe=False,
 )
