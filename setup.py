@@ -20,14 +20,6 @@ classifiers = [
 ]
 url = "https://github.com/bellabf/mother-is-mothering"
 
-
-# Include the pkl file in the MANIFEST.in file
-manifest_files = glob.glob('*.pkl') + glob.glob('src/*.pkl')
-with open('MANIFEST.in', 'w') as f:
-    for filename in manifest_files:
-        f.write(f'include {filename}\n')
-
-# Set up the package metadata and dependencies
 setup(
     name=name,
     version=version,
