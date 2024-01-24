@@ -1,0 +1,26 @@
+[project]
+name = "mother-is-mothering"
+version = "0.0.0"
+dependencies = [
+    "pickle",
+    "numpy>=1.26.3"
+]
+description = "Taylor Swift Lyrics"
+readme = "README.md"
+authors = [{ name = "Isabella Bicalho Frazeto", email = "bisnotforbella@gmail.com" }]
+license = { file = "LICENSE.txt" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Religion",
+    "Intended Audience :: Other Audience",
+    "Intended Audience :: Education"
+]
+
+keywords = ["mother", "ts", "taylor swift", "girlies"]
+
+[project.urls]
+Homepage = "https://github.com/bellabf/mother-is-mothering"
+
+
