@@ -1,8 +1,6 @@
 from setuptools import setup, find_packages
 import os
 
-current_dir = os.path.abspath(os.path.dirname(__file__))
-
 name = 'mother-is-mothering'
 version = "2024.1005-alpha"
 description = 'Words of wisdom from Taylor Swift'
@@ -29,11 +27,8 @@ setup(
     classifiers=classifiers,
     description=description,
     long_description='Longer package description goes here.',
-    packages=find_packages(),
-    include_package_data=True,
-    package_data={
-        'mother-is-mothering': ['src/ts-lyrics.pkl'],
-    },
+    packages=find_packages("src"),
+    package_dir={"": "src"},
     extras_require={},
     zip_safe=False,
 )

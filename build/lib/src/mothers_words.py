@@ -36,7 +36,7 @@ def speak_now():
     import numpy as np
     import pickle
 
-    with open("src/ts-lyrics.pkl", "rb") as f:
+    with open("ts-lyrics.pkl", "rb") as f:
         cleaned_lines = pickle.load(f)
 
     max_index = len(cleaned_lines)
