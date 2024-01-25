@@ -3,6 +3,7 @@ import os
 
 name = 'mother-is-mothering'
 version = "2024.1006-alpha"
+packages=['mothers_words']
 description = 'Words of wisdom from Taylor Swift'
 author = 'Isabella Bicalho Frazeto'
 author_email = 'bisnotforbella@gmail.com'
@@ -29,6 +30,7 @@ setup(
     long_description='Longer package description goes here.',
     packages=find_packages("src"),
     package_dir={"": "src"},
+    packages=[packages,
     extras_require={},
     zip_safe=False,
 )
