@@ -1,6 +1,6 @@
 [project]
 name = "mother-is-mothering"
-version = "2024.1005-alpha"
+version = "2024.1006-alpha"
 dependencies = [
     "numpy>=1.26.3"
 ]
@@ -24,7 +24,7 @@ Homepage = "https://github.com/bellabf/mother-is-mothering"
 
 
 [tool.bumpver]
-current_version = "2024.1005-alpha"
+current_version = "2024.1006-alpha"
 version_pattern = "YYYY.BUILD[-TAG]"
 commit_message = "bump version {old_version} -> {new_version}"
 tag_message = "{new_version}"
