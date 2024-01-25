@@ -4,7 +4,7 @@ import os
 current_dir = os.path.abspath(os.path.dirname(__file__))
 
 name = 'mother-is-mothering'
-version = '2024.1004-alpha'
+version = "2024.1005-alpha"
 description = 'Words of wisdom from Taylor Swift'
 author = 'Isabella Bicalho Frazeto'
 author_email = 'bisnotforbella@gmail.com'

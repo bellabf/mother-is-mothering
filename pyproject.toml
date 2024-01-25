@@ -1,6 +1,6 @@
 [project]
 name = "mother-is-mothering"
-version = "2024.1003-alpha"
+version = "2024.1005-alpha"
 dependencies = [
     "numpy>=1.26.3"
 ]
@@ -38,10 +38,16 @@ push = true
 [tool.bumpver.file_patterns]
 "pyproject.toml" = [
     'current_version = "{version}"',
+    'version = "{version}"',
+
 ]
 
 "src/__init__.py" = [
     '__version__ = "{version}"',
+]
+
+"setup.py" = [
+    'version = "{version}"',
 ]
 
 [build-system]
