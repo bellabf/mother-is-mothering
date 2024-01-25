@@ -42,7 +42,7 @@ push = true
 
 ]
 
-"src/__init__.py" = [
+"src/mothers_words/__init__.py" = [
     '__version__ = "{version}"',
 ]
 
