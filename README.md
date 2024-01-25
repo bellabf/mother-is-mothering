@@ -4,8 +4,19 @@ Mother is mothering is a python package that exists because I wanted to learn ho
 
 ## Installation
 
-You will eventually be able to install this package.
+Requires numpy>=1.26.3.
+
+```
+pip install -i https://test.pypi.org/simple/ mother-is-mothering==2024.1007a0
+
+```
 
 ## How to use
 
-I will eventually learn how to use this package
+
+```python
+
+import mothers_words
+mothers_words.speak_now()
+
+```
