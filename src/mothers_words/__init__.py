@@ -1,3 +1,3 @@
-__version__ = "2024.1006-alpha" 
+__version__ = "2024.1007-alpha" 
 
 from .mothers_words import *

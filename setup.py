@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 name = 'mother-is-mothering'
-version = "2024.1006-alpha"
+version = "2024.1007-alpha"
 packages=['mothers_words']
 description = 'Words of wisdom from Taylor Swift'
 author = 'Isabella Bicalho Frazeto'
