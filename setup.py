@@ -30,7 +30,7 @@ setup(
     long_description='Longer package description goes here.',
     packages=find_packages("src"),
     package_dir={"": "src"},
-    packages=[packages,
+    packages=packages,
     extras_require={},
     zip_safe=False,
 )
